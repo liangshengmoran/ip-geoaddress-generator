@@ -32,7 +32,7 @@ export function TopBar({ onInboxOpen }: TopBarProps) {
         >
           <EnvelopeClosedIcon width={ICON_SIZE} height={ICON_SIZE} />
         </IconButton>
-        <IconButton
+        {/* <IconButton
           size="4"
           variant="ghost"
           aria-label="GitHub"
@@ -44,7 +44,7 @@ export function TopBar({ onInboxOpen }: TopBarProps) {
           }
         >
           <GitHubLogoIcon width={ICON_SIZE} height={ICON_SIZE} />
-        </IconButton>
+        </IconButton> */}
         <ThemeChanger iconSize={ICON_SIZE} />
       </Flex>
     </Flex>
