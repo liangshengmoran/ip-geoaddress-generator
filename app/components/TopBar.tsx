@@ -1,5 +1,5 @@
 import { IconButton, Flex } from "@radix-ui/themes";
-import { EnvelopeClosedIcon, GitHubLogoIcon } from "@radix-ui/react-icons";
+// import { EnvelopeClosedIcon, GitHubLogoIcon } from "@radix-ui/react-icons";
 import { ThemeChanger } from "./ThemeChanger";
 
 const ICON_SIZE = 24;
